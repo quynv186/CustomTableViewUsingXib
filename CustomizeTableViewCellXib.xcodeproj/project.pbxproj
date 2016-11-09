@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2554BDC21DD37150009A778A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554BDC11DD37150009A778A /* AppDelegate.swift */; };
+		2554BDC91DD37150009A778A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDC81DD37150009A778A /* Assets.xcassets */; };
+		2554BDCC1DD37150009A778A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDCA1DD37150009A778A /* LaunchScreen.storyboard */; };
+		2554BDD51DD37195009A778A /* MasterTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554BDD31DD37195009A778A /* MasterTableVC.swift */; };
+		2554BDD61DD37195009A778A /* MasterTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDD41DD37195009A778A /* MasterTableVC.xib */; };
+		2554BDEC1DD3719E009A778A /* Arsenal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDD91DD3719E009A778A /* Arsenal.png */; };
+		2554BDED1DD3719E009A778A /* Chelsea.png in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDDA1DD3719E009A778A /* Chelsea.png */; };
+		2554BDEE1DD3719E009A778A /* EPL Banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDDB1DD3719E009A778A /* EPL Banner.jpg */; };
+		2554BDEF1DD3719E009A778A /* EPL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDDC1DD3719E009A778A /* EPL.jpg */; };
+		2554BDF01DD3719E009A778A /* Liverpool.png in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDDD1DD3719E009A778A /* Liverpool.png */; };
+		2554BDF11DD3719E009A778A /* MC.png in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDDE1DD3719E009A778A /* MC.png */; };
+		2554BDF21DD3719E009A778A /* MU.png in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDDF1DD3719E009A778A /* MU.png */; };
+		2554BDF31DD3719E009A778A /* Anfield.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDE11DD3719E009A778A /* Anfield.jpg */; };
+		2554BDF41DD3719E009A778A /* Emirates.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDE21DD3719E009A778A /* Emirates.jpg */; };
+		2554BDF51DD3719E009A778A /* Etihad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDE31DD3719E009A778A /* Etihad.jpg */; };
+		2554BDF61DD3719E009A778A /* Old Trafford.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDE41DD3719E009A778A /* Old Trafford.JPG */; };
+		2554BDF71DD3719E009A778A /* Stamford Bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDE51DD3719E009A778A /* Stamford Bridge.jpg */; };
+		2554BDF81DD3719E009A778A /* 1stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDE71DD3719E009A778A /* 1stars.png */; };
+		2554BDF91DD3719E009A778A /* 2stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDE81DD3719E009A778A /* 2stars.png */; };
+		2554BDFA1DD3719E009A778A /* 3stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDE91DD3719E009A778A /* 3stars.png */; };
+		2554BDFB1DD3719E009A778A /* 4stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDEA1DD3719E009A778A /* 4stars.png */; };
+		2554BDFC1DD3719E009A778A /* 5stars.png in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDEB1DD3719E009A778A /* 5stars.png */; };
+		2554BDFF1DD3730A009A778A /* CustomCellMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554BDFD1DD3730A009A778A /* CustomCellMaster.swift */; };
+		2554BE001DD3730A009A778A /* CustomCellMaster.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2554BDFE1DD3730A009A778A /* CustomCellMaster.xib */; };
+		2554BE021DD374C8009A778A /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554BE011DD374C8009A778A /* DataItem.swift */; };
+		2554BE191DD38FB3009A778A /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554BE171DD38FB3009A778A /* DetailVC.swift */; };
+		2554BE1A1DD38FB3009A778A /* DetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2554BE181DD38FB3009A778A /* DetailVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2554BDBE1DD37150009A778A /* CustomizeTableViewCellXib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomizeTableViewCellXib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2554BDC11DD37150009A778A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2554BDC81DD37150009A778A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2554BDCB1DD37150009A778A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2554BDCD1DD37150009A778A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2554BDD31DD37195009A778A /* MasterTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableVC.swift; sourceTree = "<group>"; };
+		2554BDD41DD37195009A778A /* MasterTableVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterTableVC.xib; sourceTree = "<group>"; };
+		2554BDD91DD3719E009A778A /* Arsenal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Arsenal.png; sourceTree = "<group>"; };
+		2554BDDA1DD3719E009A778A /* Chelsea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chelsea.png; sourceTree = "<group>"; };
+		2554BDDB1DD3719E009A778A /* EPL Banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "EPL Banner.jpg"; sourceTree = "<group>"; };
+		2554BDDC1DD3719E009A778A /* EPL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EPL.jpg; sourceTree = "<group>"; };
+		2554BDDD1DD3719E009A778A /* Liverpool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liverpool.png; sourceTree = "<group>"; };
+		2554BDDE1DD3719E009A778A /* MC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MC.png; sourceTree = "<group>"; };
+		2554BDDF1DD3719E009A778A /* MU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MU.png; sourceTree = "<group>"; };
+		2554BDE11DD3719E009A778A /* Anfield.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Anfield.jpg; sourceTree = "<group>"; };
+		2554BDE21DD3719E009A778A /* Emirates.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Emirates.jpg; sourceTree = "<group>"; };
+		2554BDE31DD3719E009A778A /* Etihad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Etihad.jpg; sourceTree = "<group>"; };
+		2554BDE41DD3719E009A778A /* Old Trafford.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Old Trafford.JPG"; sourceTree = "<group>"; };
+		2554BDE51DD3719E009A778A /* Stamford Bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Stamford Bridge.jpg"; sourceTree = "<group>"; };
+		2554BDE71DD3719E009A778A /* 1stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1stars.png; sourceTree = "<group>"; };
+		2554BDE81DD3719E009A778A /* 2stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2stars.png; sourceTree = "<group>"; };
+		2554BDE91DD3719E009A778A /* 3stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3stars.png; sourceTree = "<group>"; };
+		2554BDEA1DD3719E009A778A /* 4stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4stars.png; sourceTree = "<group>"; };
+		2554BDEB1DD3719E009A778A /* 5stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5stars.png; sourceTree = "<group>"; };
+		2554BDFD1DD3730A009A778A /* CustomCellMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellMaster.swift; sourceTree = "<group>"; };
+		2554BDFE1DD3730A009A778A /* CustomCellMaster.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCellMaster.xib; sourceTree = "<group>"; };
+		2554BE011DD374C8009A778A /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		2554BE171DD38FB3009A778A /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		2554BE181DD38FB3009A778A /* DetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2554BDBB1DD37150009A778A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2554BDB51DD37150009A778A = {
+			isa = PBXGroup;
+			children = (
+				2554BDC01DD37150009A778A /* CustomizeTableViewCellXib */,
+				2554BDBF1DD37150009A778A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2554BDBF1DD37150009A778A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2554BDBE1DD37150009A778A /* CustomizeTableViewCellXib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2554BDC01DD37150009A778A /* CustomizeTableViewCellXib */ = {
+			isa = PBXGroup;
+			children = (
+				2554BDC11DD37150009A778A /* AppDelegate.swift */,
+				2554BE011DD374C8009A778A /* DataItem.swift */,
+				2554BDC81DD37150009A778A /* Assets.xcassets */,
+				2554BDCA1DD37150009A778A /* LaunchScreen.storyboard */,
+				2554BDCD1DD37150009A778A /* Info.plist */,
+				2554BDD31DD37195009A778A /* MasterTableVC.swift */,
+				2554BDD41DD37195009A778A /* MasterTableVC.xib */,
+				2554BDFD1DD3730A009A778A /* CustomCellMaster.swift */,
+				2554BDFE1DD3730A009A778A /* CustomCellMaster.xib */,
+				2554BE171DD38FB3009A778A /* DetailVC.swift */,
+				2554BE181DD38FB3009A778A /* DetailVC.xib */,
+				2554BDD71DD3719E009A778A /* images */,
+			);
+			path = CustomizeTableViewCellXib;
+			sourceTree = "<group>";
+		};
+		2554BDD71DD3719E009A778A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2554BDD81DD3719E009A778A /* Logo Football Club */,
+				2554BDE01DD3719E009A778A /* Stadium */,
+				2554BDE61DD3719E009A778A /* Star Rating Images */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		2554BDD81DD3719E009A778A /* Logo Football Club */ = {
+			isa = PBXGroup;
+			children = (
+				2554BDD91DD3719E009A778A /* Arsenal.png */,
+				2554BDDA1DD3719E009A778A /* Chelsea.png */,
+				2554BDDB1DD3719E009A778A /* EPL Banner.jpg */,
+				2554BDDC1DD3719E009A778A /* EPL.jpg */,
+				2554BDDD1DD3719E009A778A /* Liverpool.png */,
+				2554BDDE1DD3719E009A778A /* MC.png */,
+				2554BDDF1DD3719E009A778A /* MU.png */,
+			);
+			path = "Logo Football Club";
+			sourceTree = "<group>";
+		};
+		2554BDE01DD3719E009A778A /* Stadium */ = {
+			isa = PBXGroup;
+			children = (
+				2554BDE11DD3719E009A778A /* Anfield.jpg */,
+				2554BDE21DD3719E009A778A /* Emirates.jpg */,
+				2554BDE31DD3719E009A778A /* Etihad.jpg */,
+				2554BDE41DD3719E009A778A /* Old Trafford.JPG */,
+				2554BDE51DD3719E009A778A /* Stamford Bridge.jpg */,
+			);
+			path = Stadium;
+			sourceTree = "<group>";
+		};
+		2554BDE61DD3719E009A778A /* Star Rating Images */ = {
+			isa = PBXGroup;
+			children = (
+				2554BDE71DD3719E009A778A /* 1stars.png */,
+				2554BDE81DD3719E009A778A /* 2stars.png */,
+				2554BDE91DD3719E009A778A /* 3stars.png */,
+				2554BDEA1DD3719E009A778A /* 4stars.png */,
+				2554BDEB1DD3719E009A778A /* 5stars.png */,
+			);
+			path = "Star Rating Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2554BDBD1DD37150009A778A /* CustomizeTableViewCellXib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2554BDD01DD37150009A778A /* Build configuration list for PBXNativeTarget "CustomizeTableViewCellXib" */;
+			buildPhases = (
+				2554BDBA1DD37150009A778A /* Sources */,
+				2554BDBB1DD37150009A778A /* Frameworks */,
+				2554BDBC1DD37150009A778A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomizeTableViewCellXib;
+			productName = CustomizeTableViewCellXib;
+			productReference = 2554BDBE1DD37150009A778A /* CustomizeTableViewCellXib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2554BDB61DD37150009A778A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = QUYNV;
+				TargetAttributes = {
+					2554BDBD1DD37150009A778A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2554BDB91DD37150009A778A /* Build configuration list for PBXProject "CustomizeTableViewCellXib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2554BDB51DD37150009A778A;
+			productRefGroup = 2554BDBF1DD37150009A778A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2554BDBD1DD37150009A778A /* CustomizeTableViewCellXib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2554BDBC1DD37150009A778A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2554BDF51DD3719E009A778A /* Etihad.jpg in Resources */,
+				2554BDF81DD3719E009A778A /* 1stars.png in Resources */,
+				2554BE001DD3730A009A778A /* CustomCellMaster.xib in Resources */,
+				2554BDCC1DD37150009A778A /* LaunchScreen.storyboard in Resources */,
+				2554BDF31DD3719E009A778A /* Anfield.jpg in Resources */,
+				2554BDEE1DD3719E009A778A /* EPL Banner.jpg in Resources */,
+				2554BDED1DD3719E009A778A /* Chelsea.png in Resources */,
+				2554BDFB1DD3719E009A778A /* 4stars.png in Resources */,
+				2554BDEC1DD3719E009A778A /* Arsenal.png in Resources */,
+				2554BDF01DD3719E009A778A /* Liverpool.png in Resources */,
+				2554BDF11DD3719E009A778A /* MC.png in Resources */,
+				2554BDC91DD37150009A778A /* Assets.xcassets in Resources */,
+				2554BDFC1DD3719E009A778A /* 5stars.png in Resources */,
+				2554BDF21DD3719E009A778A /* MU.png in Resources */,
+				2554BDF41DD3719E009A778A /* Emirates.jpg in Resources */,
+				2554BDFA1DD3719E009A778A /* 3stars.png in Resources */,
+				2554BDF91DD3719E009A778A /* 2stars.png in Resources */,
+				2554BE1A1DD38FB3009A778A /* DetailVC.xib in Resources */,
+				2554BDD61DD37195009A778A /* MasterTableVC.xib in Resources */,
+				2554BDEF1DD3719E009A778A /* EPL.jpg in Resources */,
+				2554BDF61DD3719E009A778A /* Old Trafford.JPG in Resources */,
+				2554BDF71DD3719E009A778A /* Stamford Bridge.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2554BDBA1DD37150009A778A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2554BE191DD38FB3009A778A /* DetailVC.swift in Sources */,
+				2554BE021DD374C8009A778A /* DataItem.swift in Sources */,
+				2554BDFF1DD3730A009A778A /* CustomCellMaster.swift in Sources */,
+				2554BDD51DD37195009A778A /* MasterTableVC.swift in Sources */,
+				2554BDC21DD37150009A778A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2554BDCA1DD37150009A778A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2554BDCB1DD37150009A778A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2554BDCE1DD37150009A778A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2554BDCF1DD37150009A778A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2554BDD11DD37150009A778A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomizeTableViewCellXib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quynv.CustomizeTableViewCellXib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2554BDD21DD37150009A778A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomizeTableViewCellXib/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quynv.CustomizeTableViewCellXib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2554BDB91DD37150009A778A /* Build configuration list for PBXProject "CustomizeTableViewCellXib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2554BDCE1DD37150009A778A /* Debug */,
+				2554BDCF1DD37150009A778A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2554BDD01DD37150009A778A /* Build configuration list for PBXNativeTarget "CustomizeTableViewCellXib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2554BDD11DD37150009A778A /* Debug */,
+				2554BDD21DD37150009A778A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2554BDB61DD37150009A778A /* Project object */;
+}
